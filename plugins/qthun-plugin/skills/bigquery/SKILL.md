@@ -1,6 +1,6 @@
 ---
-name: qthun
-description: Optimize SQL queries for BigQuery by iteratively improving them based on runtime and cost metrics.
+name: bigquery
+description: Optimize BigQuery SQL query through iterative improvement
 ---
 
 # Query tuning

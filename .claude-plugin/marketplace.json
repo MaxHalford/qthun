@@ -1,13 +1,13 @@
 {
+  "name": "qthun",
   "owner": {
     "name": "MaxHalford"
   },
   "plugins": [
     {
-      "id": "qthun",
-      "name": "Q'thun",
-      "description": "Skills to tune SQL queries for speed and cost",
-      "source": "."
+      "name": "qthun-plugin",
+      "source": "./plugins/qthun-plugin",
+      "description": "Adds skills for tuning SQL queries"
     }
   ]
 }

@@ -9,8 +9,8 @@ You had a decent childhood if you caught the reference.
 Add the marketplace and install the plugin:
 
 ```
-/plugin marketplace add MaxHalford/qthun
-/plugin install qthun@MaxHalford-qthun
+/plugin marketplace MaxHalford/qthun
+/plugin install qthun-plugin@qthun
 ```
 
 ## Usage
