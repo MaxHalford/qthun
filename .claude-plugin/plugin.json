@@ -1,0 +1,6 @@
+{
+  "name": "qthun",
+  "version": "0.1.0",
+  "description": "Skills to tune SQL queries for speed and cost",
+  "repository": "https://github.com/MaxHalford/qthun"
+}

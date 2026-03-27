@@ -1,0 +1,13 @@
+{
+  "owner": {
+    "name": "MaxHalford"
+  },
+  "plugins": [
+    {
+      "id": "qthun",
+      "name": "Q'thun",
+      "description": "Skills to tune SQL queries for speed and cost",
+      "source": "."
+    }
+  ]
+}

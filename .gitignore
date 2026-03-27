@@ -2,3 +2,4 @@
 *.json
 *.csv
 *.txt
+!.claude-plugin/*
