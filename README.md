@@ -2,8 +2,6 @@
 
 Q'thun (pronounced kuh-foon) is a Claude Code plugin that optimizes BigQuery SQL queries by iteratively improving them based on runtime and cost metrics.
 
-You had a decent childhood if you caught the reference.
-
 ## Installation
 
 Add the marketplace and install the plugin:
@@ -13,21 +11,20 @@ Add the marketplace and install the plugin:
 /plugin install qthun@qthun
 ```
 
+To update:
+
+```
+/plugin marketplace update qthun
+/reload-plugins
+```
+
 ## Usage
 
 Invoke the skill with:
 
 ```
-/qthun --query <path-to-sql-file> [--budget <usd>] [--iterations <n>]
+/qthun:bigquery --query <path-to-sql-file> [--budget <usd>] [--iterations <n>]
 ```
-
-### Parameters
-
-| Parameter | Description | Default |
-|---|---|---|
-| `--query <path>` | Path to a `.sql` file containing the query to optimize | (required) |
-| `--budget <float>` | Maximum USD to spend on query execution during optimization | 100 |
-| `--iterations <int>` | Maximum number of optimization steps | 10 |
 
 ### What it does
 

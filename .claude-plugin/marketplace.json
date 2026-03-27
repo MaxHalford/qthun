@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "qthun",
-      "source": "./plugins/qthun-plugin",
+      "source": "./plugins/qthun",
       "description": "Adds skills for tuning SQL queries"
     }
   ]

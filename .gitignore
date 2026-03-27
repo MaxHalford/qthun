@@ -3,3 +3,4 @@
 *.csv
 *.txt
 !.claude-plugin/*
+!plugins/qthun/.claude-plugin/*
