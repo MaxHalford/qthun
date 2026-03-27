@@ -72,6 +72,9 @@ AND mm.indicator = 'PRIMARY'
 GROUP BY ALL
 ```
 
+- Q'thun spots out that joining with `analytics.entities` is not necessary, which saves ~15s
+- It then applies a heuristic, which is to pre-aggregate figures before joining with `analytics.tags`
+
 ```sql
 -- Optimized: removed redundant entities join, LEFT->INNER JOIN on metrics,
 -- pre-aggregate before tags join to reduce fan-out (115.7s -> 77.9s)
