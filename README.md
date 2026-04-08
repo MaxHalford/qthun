@@ -1,6 +1,6 @@
 # Q'thun
 
-Q'thun (pronounced kuh-foon) is a Claude Code plugin that optimizes BigQuery SQL queries by iteratively improving them based on runtime and cost metrics.
+Q'thun (pronounced kuh-thoon) is a Claude Code plugin that optimizes BigQuery SQL queries by iteratively improving them based on runtime and cost metrics.
 
 What it does:
 
